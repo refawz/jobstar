@@ -1,0 +1,85 @@
+/*==========================================*/
+
+/* CSS Document */
+/*
+	Template Name: Jobstar 
+	Description: Jobstar - Job Search HTML Template
+	Author: Suave Digital
+	Website: http://suavedigital.com
+*/
+
+/*==========================================*/
+
+/*
+	This file contains sass mixins
+*/
+
+/*==========================================*/
+
+$textcolor: #676767;
+$headingcolor: #444;
+$white: #fff;
+$fadedwhite: #f4f4f4;
+$dark: #333;
+$darker: #232323;
+$darkest: #191919;
+$grey:#ddd;
+$light: #ccc;
+$greycustom: #969696;
+$lighter: #eee;
+$lightest: #f7f7f7;
+$maincolorblue: #1F3A93;
+$maincoloryellow: #FCC512;
+$red: #F22613;
+$blue: #4183D7;
+$green: #2ECC71;
+$orange: #F89406;
+$purple: #9A12B3;
+$twitter: #00ACED;
+$facebook: #3B5998;
+$vimeo: #00B3EC;
+$dribbble: #C32361;
+
+/* Breakpoints */
+
+$screen-lg: 1999px;
+$screen-lg-min: 1200px;
+$screen-md: 1024px;
+$screen-sm: 991px;
+$screen-sm-min: 992px;
+$screen-xs: 767px;
+$screen-xxs: 480px;
+$screen-ss: 320px;
+
+@mixin border-radius($val) {
+	border-radius: $val;
+	-webkit-border-radius: $val;
+	-moz-border-radius: $val;
+}
+
+@mixin transition($val){
+	-webkit-transition: all $val ease-in-out;
+	-moz-transition: all $val ease-in-out;
+	-ms-transition: all $val ease-in-out;
+	-o-transition: all $val ease-in-out;
+}
+
+@mixin opacity($val){
+	opacity: $val;
+	-webkit-opacity: $val;
+	-moz-opacity: $val;
+}
+
+@mixin transform($val){
+	transform: $val;
+	-webkit-transform: $val;
+	-moz-transform: $val;
+	-o-transform: $val;
+	-ms-transform: $val;
+}
+
+@mixin box-shadow($val){
+	box-shadow: $val;
+	-webkit-box-shadow: $val;
+	-moz-box-shadow: $val;
+}
